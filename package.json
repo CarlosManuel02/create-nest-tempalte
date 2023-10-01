@@ -1,9 +1,9 @@
 {
-  "name": "nest-tempalte",
+  "name": "@carlosm02/nest-tempalte",
   "version": "0.0.1",
   "description": "",
   "author": "",
-  "private": true,
+  "private": false,
   "license": "UNLICENSED",
   "bin": "./dist/cli/js",
   "scripts": {

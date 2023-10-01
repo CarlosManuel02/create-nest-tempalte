@@ -4,6 +4,7 @@
 
 mysql/
 .env
+/bin
 
 # Logs
 logs
