@@ -5,7 +5,7 @@
   "author": "",
   "private": false,
   "license": "UNLICENSED",
-  "bin": "./dist/cli/js",
+  "bin": "./bin/cli/js",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
