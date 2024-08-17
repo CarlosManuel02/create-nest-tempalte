@@ -16,7 +16,7 @@ const runCommand = (command) => {
 
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/CarlosManuel02/nest-tempalte.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/CarlosManuel02/create-nest-tempalte.git ${repoName}`;
 const installCommand = `cd ${repoName} && npm install`;
 
 console.log(`Creating new NestJS project in ${repoName}...`);
@@ -29,4 +29,4 @@ const installDeps = runCommand(installCommand);
 if (!installDeps) process.exit(-1);
 
 console.log('Done!');
-console.log(`\nRun the following commands to get started:\n\n\tcd ${repoName}\n\tnpm run start:dev\n\nHappy hacking!`);
+console.log(`\nRun the following commands to get started:\n\n\tcd ${repoName}\n\tnpm run start:dev\n\nHappy coding!`);
