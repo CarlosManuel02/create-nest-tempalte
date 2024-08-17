@@ -1,11 +1,13 @@
 {
-  "name": "@carlosm02/nest-tempalte",
+  "name": "@carlosm02/create-nest-tempalte",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "private": false,
   "license": "UNLICENSED",
-  "bin": "./bin/cli/js",
+  "bin": {
+    "create-nest-tempalte": "bin/cli/js"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
